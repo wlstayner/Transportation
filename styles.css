@@ -1,0 +1,50 @@
+body
+{background-color: papayawhip; font-family: arial;}
+textarea{flex-direction: row-reverse;}
+
+div.flex-container {display: flex;
+flex-wrap:wrap; justify-content: center;}
+div.half{flex-basis:20%;}
+div.text{text-align: left; margin: 50px; margin-bottom: 60px; margin-top: 70px; margin-left:50px; margin-right: 100px; font-size: 20pt; font-family: serif; line-height: 45px;}
+div.headline{text-align: center; font-size: 30px; color: orange; margin-bottom: 0px;}
+div.byline{text-align: center; font-size: 25px; color: orange; margin-bottom: 45px;}
+div.graphic{background-color: white;}
+.pquote {float:right;
+    color: white;
+    width: 200px;
+    background: maroon;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px}
+
+blockquote {
+    margin: 0;
+}
+
+figure {float: left;
+padding-right: 20px;
+margin-left: 5px;
+margin-right: 35px;
+}
+
+div.photog {caption-side: block-start;
+font-size: 20px;
+font-weight: bold;}
+div.location {
+  font-size: 25px;
+  font-style: oblique;
+  margin: 0px;
+}
+
+/*For Smaller Screens  */
+@media(max-width: 800px)
+
+
+
+ {
+ div.flex-container{width:100%}
+ div.text {font-size: 15px;}
+ }
